@@ -22,8 +22,8 @@ $tomcat_process_kill_command = 'kill -9 __PID__';
 $tomcat_startup_command = '/etc/init.d/tomcat start';
 
 $logfile = '/var/log/tomcat_healthcheck.log';
-$alertmail_address_to = 'system@innobase.co.jp';
-$alertmail_address_from = 'system@iroots.jp';
+$alertmail_address_to = 'system@hoge';
+$alertmail_address_from = 'system@fuga';
 $alertmail_subject = '【重要】システムを再起動しました';
 $alertmail_body = '__TIME__ tomcatのダウンを検知、再起動を処理を行いました';
 
